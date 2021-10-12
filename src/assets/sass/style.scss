@@ -15,159 +15,112 @@ html {
   min-height: 100%;
 }
 
-a {
-  &:focus {
-    outline: none;
-  }
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", Arial, sans-serif;
+/* Font Sizes */
+@mixin playerBoxLowerText {
   font-weight: 600;
-  line-height: 1.1em;
-  margin-bottom: 20px;
-}
-
-.content-wrapper {
-  background-color: $body-color;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.scroll-container{
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: 100%;
-}
-
-.flex-basis-auto {
-  -webkit-flex-basis: auto;
-  -moz-flex-basis: auto;
-  -ms-flex-basis: auto;
-  flex-basis: auto;
-}
-
-.btn-disabled {
-  color: $white;
-  opacity: 0.5;
-  text-decoration: none;
-  pointer-events: none;
-  background-color: $gray-500;
-  border-color: $gray-500;
-}
-
-.btn-primary {
-  min-width: 130px;
-  height: 35px;
-  padding: 7px 15px;
-  border-radius: 4px;
-  background-color: $primary;
-  color: $white;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: 0.38px;
+  font-size: 24px;
+  line-height: 18px;
+  /* or 75% */
+  display: flex;
+  align-items: center;
   text-align: center;
-  text-decoration: none;
-  @extend .d-flex;
-  @extend .align-items-center;
-  @extend .justify-content-center;
-  &:active,
-  &:hover,
-  &:focus {
-    background-position: 100% 0;
-    transition: all 0.3s ease-in-out;
-    color: $white;
-    outline: none;
-    text-decoration: none;
-    @include box-shadow(1px 1px rgba($primary, 0.4));
-  }
+  justify-content: center;
 }
-
-.btn-secondary,
-.btn-secondary.dropdown-toggle {
-  min-width: 130px;
-  height: 35px;
-  padding: 7px 15px;
-  border-radius: 4px;
-  border-color: $primary;
-  background: none;
-  color: $gray-800;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: 0.38px;
+@mixin playerBoxUpperText {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 18px;
+  /* or 75% */
+  display: flex;
+  align-items: center;
   text-align: center;
-  text-decoration: none;
-  box-shadow: none;
-  @extend .d-flex;
-  @extend .align-items-center;
-  @extend .justify-content-center;
-  &:active,
-  &:hover,
-  &:focus {
-    background-position: 100% 0;
-    transition: all 0.3s ease-in-out;
-    color: $white;
-    outline: none;
-    text-decoration: none;
-    background: $primary !important;
-    border-color: $primary;
-    @include box-shadow(1px 1px rgba($primary, 0.4));
-  }
-  &:not(:disabled):not(.disabled):active,
-  &:not(:disabled):not(.disabled):focus {
-    border-color: $primary;
-    @include box-shadow(1px 1px rgba($primary, 0.4));
-  }
+  justify-content: center;
 }
 
-.bg-dark {
-  background-color: #5c2a9d !important;
+/* Colors */
+
+/* Player Score Boxes */
+@mixin playerScoreBox {
+  width: 624px;
+  height: 660px;
+}
+.playerScoreBoxLeft {
+  @include playerScoreBox();
+  position: absolute;
+  left: 411px;
+  top: 365px;
+}
+.playerScoreBoxRight {
+  @include playerScoreBox();
+  position: absolute;
+  left: 1049px;
+  top: 365px;
 }
 
-.hide {
-  display: none !important;
+/* Scores Army Name Header */
+.scoresArmyNameBox {
+  width: 624px;
+  height: 69px;
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 89.55%;
+}
+.scoresArmyNameLabel {
+  @include playerBoxUpperText();
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.scoresArmyNameBackground {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  /* ScoreArmyHeader */
+  background: #B7E394;
+
+  /* ScoreBox */
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-/* Navbar */
+/* Total Army Score Box */
 
- .navbar-brand {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, .25);
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+@mixin scoreTotalBoxesColor {
+  /* ScoreTotalBoxes */
+  background: #F19E38;
+  /* ScoreBox */
+  border: 3px solid rgba(0, 0, 0, 0.5);
 }
-
-.navbar .navbar-toggler {
-  top: .25rem;
-  right: 1rem;
+.armyTotalBox {
+  position: absolute;
+  left: 79.81%;
+  right: 0%;
+  top: 90%;
+  bottom: 0%;
 }
-
-.navbar .form-control {
-  padding: .75rem 1rem;
-  border-width: 0;
-  border-radius: 0;
+.armyTotalNumber {
+  /* TotalNumber */
+  position: absolute;
+  width: 126px;
+  height: 67px;
+  left: 0px;
+  top: -1px;
+  @include playerBoxLowerText();
+  color: #000;
 }
-
-.form-control-dark {
-  color: #fff;
-  background-color: rgba(255, 255, 255, .1);
-  border-color: rgba(255, 255, 255, .1);
+.armyTotalBackground {
+  @include scoreTotalBoxesColor();
+  position: absolute;
+  width: 126px;
+  height: 67px;
+  left: 0px;
+  top: -1px;
 }
-
-.form-control-dark:focus {
-  border-color: transparent;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
-}
-
