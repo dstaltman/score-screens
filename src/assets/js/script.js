@@ -12,14 +12,16 @@
       if (rawFile.readyState === 4)
       {
         if (rawFile.status === 200 || rawFile.status === 0) {
-          var allText = rawFile.responseText;
+          if (rawFile.responseText.length > 0) {
+            var allText = rawFile.responseText;
 
-          let splits = allText.split(/,/);
-          $('#leftArmyName').html(splits[0]);
-          $('#leftTotal').html(splits[1]);
+            let splits = allText.split(/,/);
+            $('#leftArmyName').html(splits[0]);
+            $('#leftTotal').html(splits[1]);
 
-          $('#rightArmyName').html(splits[2]);
-          $('#rightTotal').html(splits[3]);
+            $('#rightArmyName').html(splits[2]);
+            $('#rightTotal').html(splits[3]);
+          }
         }
       }
     }
