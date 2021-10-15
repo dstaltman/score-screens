@@ -1,23 +1,85 @@
 "use strict";
 
 var testdata = {
-    "leftPlayer": {
+    "left": {
         "playerName": "Dru Staltman",
-        "armyName": "Maggotkin of Nurgle",
-        "commandPoints": 5,
-        "aosScoreData": {
-            "totalPoints": 22,
-            "grandStrategyName": "FIGHT WIN PREVAIL",
-            "grandStrategyPoints": 2,
-            "roundScores": [
-                {
-                    "primaryPoints": 2,
-                    "secondaryName": "Fight the guys",
-                    "secondarPoints": 2,
-                    "bonusPoints": 2
-                }
-            ]
-        }
+        "armyName": "TEST ARMY NAME",
+        "commandScore": 5,
+        "totalScore": 99,
+        "grandStrategyName": "GRAND STRATEGY NAME",
+        "grandStrategyScore": 99,
+        "aosRoundScores": [
+            {
+                "primaryScore": 1,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 1,
+                "bonusScore": 1
+            },
+            {
+                "primaryScore": 2,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 2,
+                "bonusScore": 2
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            }
+        ]
+    },
+    "right": {
+        "playerName": "Dru Staltman",
+        "armyName": "TEST ARMY NAME",
+        "commandScore": 5,
+        "totalScore": 22,
+        "grandStrategyName": "grand strategy name",
+        "grandStrategyScore": 2,
+        "aosRoundScores": [
+            {
+                "primaryScore": 2,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 2,
+                "bonusScore": 2
+            },
+            {
+                "primaryScore": 2,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 2,
+                "bonusScore": 2
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            },
+            {
+                "primaryScore": 3,
+                "secondaryName": "Fight the guys",
+                "secondaryScore": 3,
+                "bonusScore": 3
+            }
+        ]
     }
 };
 export {testdata};
