@@ -1,0 +1,155 @@
+{
+    "left": {
+        "aosRoundScores": [
+            {
+                "bonusScore": 1,
+                "primaryScore": 2,
+                "secondaryName": "Slay the Warlord",
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 4,
+                "secondaryName": "Conquer",
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            }
+        ],
+        "aosRoundScores[{roundIndex}]": {
+            "bonusScore": 0,
+            "primaryScore": 0,
+            "secondaryScore": 0
+        },
+        "armyName": "Ossiarch Bonereapers",
+        "commandPoints": 0,
+        "grandStrategy": "Battleline Remains",
+        "playerName": "Dru",
+        "totalPoints": 0
+    },
+    "pointValue": 0,
+    "right": {
+        "aosRoundScores": [
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryScore": 0
+            }
+        ],
+        "armyName": "Ork",
+        "commandPoints": 0,
+        "playerName": "Don",
+        "totalPoints": 0
+    },
+    "sigmarFactions": [
+        {
+            "name": "Idoneth Deepkin",
+            "pointValue": 0
+        },
+        {
+            "name": "Maggotkin of Nurgle",
+            "pointValue": 0
+        },
+        {
+            "name": "Slaves to Darkness",
+            "pointValue": 0
+        },
+        {
+            "name": "Lumineth Realmlords",
+            "pointValue": 0
+        },
+        {
+            "name": "Ossiarch Bonereapers",
+            "pointValue": 0
+        },
+        {
+            "name": "Blades of Khorne",
+            "pointValue": 0
+        }
+    ],
+    "sigmarObjectiveTypes": [
+        {
+            "name": "grand strategy"
+        },
+        {
+            "name": "battle tactic"
+        }
+    ],
+    "sigmarObjectives": [
+        {
+            "description": "Pick a battle line. Kill it.",
+            "name": "Broken Ranks",
+            "pointValue": 2,
+            "type": "battle tactic"
+        },
+        {
+            "description": "Take an objective from the opponent",
+            "name": "Conquer",
+            "pointValue": 2,
+            "type": "battle tactic"
+        },
+        {
+            "description": "Have at least one battleline remaining",
+            "name": "Battleline Remains",
+            "pointValue": 3,
+            "type": "grand strategy"
+        },
+        {
+            "description": "Kill all enemy Heroes",
+            "name": "Sever the Head",
+            "pointValue": 3,
+            "type": "grand strategy"
+        },
+        {
+            "description": "Kill the enemy General. Your General is still alive.",
+            "name": "Vendetta",
+            "pointValue": 3,
+            "type": "grand strategy"
+        },
+        {
+            "description": "At least one battleline unit remains",
+            "name": "Hold the Line",
+            "pointValue": 3,
+            "type": "grand strategy"
+        },
+        {
+            "description": "Kill the enemy General",
+            "name": "Slay the Warlord",
+            "pointValue": 2,
+            "type": "battle tactic"
+        }
+    ]
+}

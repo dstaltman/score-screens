@@ -18,7 +18,7 @@ export function populateAoSScoreData(data) {
     let topLevelNames = [
         'armyName',
         'totalScore',
-        'grandStrategyName',
+        'grandStrategy',
         'grandStrategyScore'
     ];
     let aosRoundScoreTableName = 'aosRoundScores';
@@ -48,3 +48,12 @@ export function populateAoSScoreData(data) {
 }
 
 populateAoSScoreData(testdata);
+
+function updateFile() {
+    fetch('assets/data/data.json')
+    .then(response => response.json())
+    //.then(data => console.log(data))
+    .then(data => populateAoSScoreData(data));
+}
+
+setInterval(updateFile, 1000);

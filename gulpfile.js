@@ -50,6 +50,11 @@ function css() {
         .pipe(gulp.dest('public/assets/css/'));
 }
 
+function data() {
+    return gulp.src('src/assets/data/*')
+        .pipe(gulp.dest('public/assets/data'));
+}
+
 function js() {
     return gulp.src('src/assets/js/*.js')
         .pipe(jsImport({
@@ -81,7 +86,10 @@ function serve() {
     browserSync.init({
         open: true,
         notify: false,
-        server: './public'
+        server: {
+            baseDir: './public'
+        },
+        cors: true,
     });
 }
 
@@ -113,5 +121,5 @@ exports.js = js;
 exports.fonts = fonts;
 exports.fontAwesome = fontAwesome;
 exports.del = del;
-exports.serve = gulp.parallel(html, css, js, img, fonts, fontAwesome, watchFiles, serve);
-exports.default = gulp.series(del, html, css, js, fonts, img, fontAwesome);
+exports.serve = gulp.parallel(html, css, js, img, fonts, fontAwesome, data, watchFiles, serve);
+exports.default = gulp.series(del, html, css, js, fonts, img, fontAwesome, data);
