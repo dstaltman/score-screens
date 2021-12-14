@@ -1,31 +1,35 @@
 {
+    "description": "",
     "left": {
         "aosRoundScores": [
             {
-                "bonusScore": 1,
-                "primaryScore": 2,
-                "secondaryName": "Slay the Warlord",
-                "secondaryScore": 0
-            },
-            {
                 "bonusScore": 0,
-                "primaryScore": 4,
-                "secondaryName": "Conquer",
+                "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
+                "secondaryScore": 0
+            },
+            {
+                "bonusScore": 0,
+                "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             }
         ],
@@ -34,44 +38,52 @@
             "primaryScore": 0,
             "secondaryScore": 0
         },
-        "armyName": "Ossiarch Bonereapers",
+        "armyName": "Blades of Khorne",
         "commandPoints": 0,
         "grandStrategy": "Battleline Remains",
-        "playerName": "Dru",
+        "grandStrategyScore": 0,
+        "playerName": "Miles",
         "totalPoints": 0
     },
+    "name": "------",
     "pointValue": 0,
     "right": {
         "aosRoundScores": [
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
+                "secondaryName": "------",
                 "secondaryScore": 0
             }
         ],
-        "armyName": "Ork",
+        "armyName": "Stormcast Eternals",
         "commandPoints": 0,
-        "playerName": "Don",
+        "grandStrategyScore": 0,
+        "playerName": "Matt",
         "totalPoints": 0
     },
     "sigmarFactions": [
@@ -98,6 +110,10 @@
         {
             "name": "Blades of Khorne",
             "pointValue": 0
+        },
+        {
+            "name": "Stormcast Eternals",
+            "pointValue": 0
         }
     ],
     "sigmarObjectiveTypes": [
@@ -109,6 +125,12 @@
         }
     ],
     "sigmarObjectives": [
+        {
+            "description": "",
+            "name": "------",
+            "pointValue": 0,
+            "type": "battle tactic"
+        },
         {
             "description": "Pick a battle line. Kill it.",
             "name": "Broken Ranks",
@@ -151,5 +173,6 @@
             "pointValue": 2,
             "type": "battle tactic"
         }
-    ]
+    ],
+    "type": "battle tactic"
 }
