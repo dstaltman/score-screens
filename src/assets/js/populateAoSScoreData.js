@@ -39,7 +39,12 @@ export function populateAoSScoreData(data) {
 
         topLevelNames.forEach(dataLabelName => {
             var id = "#" + playerString + capitalize(dataLabelName);
-            $(id).html(data[playerString][dataLabelName]);
+            if (typeof(data[playerString][dataLabelName]) === 'string') {
+                $(id).html(data[playerString][dataLabelName].toUpperCase());
+            }
+            else {
+                $(id).html(data[playerString][dataLabelName]);
+            }
 
             // Add up the score if we this field has 'Score' in the name
             if (dataLabelName.includes("Score")) {
@@ -52,7 +57,12 @@ export function populateAoSScoreData(data) {
         for (let roundData of data[playerString][aosRoundScoreTableName]) {
             aosRoundNames.forEach(roundName => {
                 var id = "#" + playerString + capitalize(roundName) + roundNumber;
-                $(id).html(roundData[roundName])
+                if (typeof(roundData[roundName]) === 'string') {
+                    $(id).html(roundData[roundName].toUpperCase())
+                }
+                else {
+                    $(id).html(roundData[roundName])
+                }
 
                 // Add up the score if we this field has 'Score' in the name
                 if (roundName.includes("Score")) {
