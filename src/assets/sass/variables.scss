@@ -38,4 +38,17 @@ $font-family: "Barlow Semi Condensed", "Poppins", -apple-system, BlinkMacSystemF
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji" !default;
 
-  $animation-duration: 200ms;
+$animation-duration: 200ms;
+
+/* Colors */
+/* Basic Colors */
+$accentColor: #FA8072 !default;
+$primaryColor: #38405F !default;
+$tertiaryColor: #59546C !default;
+$secondaryColor: #0E131F !default;
+$neutralColor: #8B939C !default;
+
+/* Font Colors */
+$darkTextColor: #0E131F !default;
+$lightTextColor: #FFFFFF !default;
+$accentTextColor: #FA8072 !default;

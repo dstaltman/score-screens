@@ -6,3 +6,43 @@ $theme-colors: (
 .bg-scarlet{
     background-color: $scarlet;
 }
+
+/* Colors */
+/* Basic Colors */
+@mixin accentColor {
+  background: $accentColor;
+}
+@mixin primaryColor {
+  background: $primaryColor;
+}
+@mixin tertiaryColor {
+  background: $tertiaryColor;
+}
+@mixin secondaryColor {
+  background: $secondaryColor;
+}
+@mixin neutralColor {
+  background: $neutralColor;
+}
+
+/* Font Colors */
+@mixin darkTextColor {
+  color: $darkTextColor;
+}
+@mixin lightTextColor {
+  color: $lightTextColor;
+}
+@mixin accentTextColor {
+  color: $accentTextColor;
+}
+
+/* Box Colors */
+@mixin scoreBoxColor {
+  background: rgba(0, 0, 0, 0.5)
+}
+
+/* Border style */
+@mixin scoreBoxBorder {
+  border: 3px solid rgba(0, 0, 0, 0.5);
+}
+

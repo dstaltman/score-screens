@@ -6,3 +6,51 @@
      font-weight: 600;
      src : url('../fonts/BarlowSemiCondensed-SemiBold.ttf');
  }
+
+/* Font Sizes */
+@mixin fontCentered {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@mixin buttonLabelText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 18px;
+}
+@mixin roundNumberText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 18px;
+}
+@mixin roundNumberAccentText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 18px;
+}
+@mixin playerBoxLowerText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 75% */
+}
+@mixin playerBoxUpperText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 18px;
+}
+@mixin playerBoxScoreText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 18px;
+}
+
+

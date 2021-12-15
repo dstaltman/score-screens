@@ -5,7 +5,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5em;
-  color: #3b3b53;
+  @include lightTextColor();
   background-color: $body-color;
   height: 100%;
 }
@@ -13,89 +13,6 @@ body {
 html {
   position: relative;
   min-height: 100%;
-}
-
-
-/* Font Sizes */
-@mixin fontCentered {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-@mixin buttonLabelText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 18px;
-}
-@mixin roundNumberText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 96px;
-  line-height: 18px;
-}
-@mixin roundNumberAccentText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 18px;
-}
-@mixin playerBoxLowerText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
-  /* or 75% */
-}
-@mixin playerBoxUpperText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 18px;
-}
-@mixin playerBoxScoreText {
-  @include fontCentered();
-  font-weight: 600;
-  font-size: 96px;
-  line-height: 18px;
-}
-
-
-/* Colors */
-/* Font Colors */
-@mixin activeTextColor {
-  color: #FAFF00;
-}
-@mixin playerBoxTextColor {
-  color: #FFFFFF;
-}
-@mixin grandStrategyTextColor {
-  color: #000000;
-}
-/* Box Colors */
-@mixin scoreBoxColor {
-  background: rgba(0, 0, 0, 0.5)
-}
-@mixin armyScoreHeaderColor {
-  background: #B7E394;
-}
-@mixin scoreRowBoxesColor {
-  background: #E4A4A4;
-}
-@mixin scorePointBoxesColor {
-  background: #9B9459;
-}
-@mixin scoreGrandStrategyBoxesColor {
-  background: #FBE6A2;
-}
-@mixin scoreTotalBoxesColor {
-  background: #F19E38;
-}
-/* Border style */
-@mixin scoreBoxBorder {
-  border: 3px solid rgba(0, 0, 0, 0.5);
 }
 
 
@@ -131,6 +48,7 @@ html {
 }
 .scoresArmyNameLabel {
   @include playerBoxUpperText();
+  @include lightTextColor();
   position: absolute;
   left: 0%;
   right: 0%;
@@ -144,7 +62,7 @@ html {
   top: 0%;
   bottom: 0%;
   /* ScoreArmyHeader */
-  @include armyScoreHeaderColor();
+  @include secondaryColor();
   /* ScoreBox */
   @include scoreBoxBorder();
   box-sizing: border-box;
@@ -157,21 +75,21 @@ html {
   position: absolute;
   width: 148px;
   height: 504px;
-  left: 249px;
-  top: 441px;
+  left: 247px;
+  top: 440px;
 }
 @mixin roundBoxSize {
   width: 148px;
-  height: 66px;  
+  //height: 66px;  Value from figma; doesn't line up as well as 61
+  height: 61px;  
 }
 @mixin roundBox {
   @include roundBoxSize();
-  @include scoreRowBoxesColor();
+  @include primaryColor();
   @include scoreBoxBorder();
-  position: relative;
 }
 .roundBoxBackground {
-  @include scoreRowBoxesColor();
+  @include primaryColor();
   @include scoreBoxBorder();
   @include roundBox();
   left: 0%;
@@ -180,7 +98,7 @@ html {
   bottom: 0%;
 }
 .roundLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   position: absolute;
   left: 0%;
@@ -189,7 +107,7 @@ html {
   bottom: 0%;
 }
 .roundNumberLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxUpperText();
   position: absolute;
   left: 0%;
@@ -201,65 +119,44 @@ html {
   @include roundBox();
   /* roundBox0 */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 86.9%;
+  top: 0px;
 }
 .roundBox1 {
   @include roundBox();
   /* roundBox1 */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 14.48%;
-  bottom: 72.42%;
+  top: 73px;
 }
 .roundBox2 {
   @include roundBox();
   /* roundBox2 */
   position: absolute;
-  width: 148px;
-  height: 66px;
-  left: 0px;
   top: 146px;
 }
 .roundBox3 {
   @include roundBox();
   /* roundBox3 */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 43.45%;
-  bottom: 43.45%;
+  top: 219px;
 }
 .roundBox4 {
   @include roundBox();
   /* roundBox4 */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 57.94%;
-  bottom: 28.97%;
+  top: 292px;
 }
 .roundBox5 {
   @include roundBox();
   /* roundBox5 */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 72.42%;
-  bottom: 14.48%;
+  top: 365px;
 }
 .roundBoxGrandStrategy {
   @include roundBox();
-  @include scoreGrandStrategyBoxesColor();
+  @include primaryColor();
   /* roundBoxGrandStrategy */
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 86.9%;
-  bottom: 0%;
+  top: 438px;
 }
 
 
@@ -267,7 +164,7 @@ html {
 
 /* Primary Score Box */
 .primaryScoreBox {
-  @include scorePointBoxesColor();
+  @include tertiaryColor();
   @include scoreBoxBorder();
   /* PrimaryBox */
   position: absolute;
@@ -277,7 +174,7 @@ html {
   bottom: 0%;
 }
 .primaryHeaderLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   /* PrimaryNumber */
   position: absolute;
@@ -287,7 +184,7 @@ html {
   top: -2px;
 }
 .primaryScoreLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxUpperText();
   /* PrimaryNumber */
   position: absolute;
@@ -299,7 +196,7 @@ html {
 
 /* Battle Tactics Boxes */
 .secondaryScoreBox {
-  @include scorePointBoxesColor();
+  @include tertiaryColor();
   @include scoreBoxBorder();
   /* SecondaryBox */
   position: absolute;
@@ -309,7 +206,7 @@ html {
   bottom: 0%;
 }
 .secondaryScoreHeaderLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   /* SecondaryLabel */
   position: absolute;
@@ -319,7 +216,7 @@ html {
   bottom: 0%;
 }
 .secondaryScoreNameLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   /* SecondaryLabel */
   position: absolute;
@@ -331,7 +228,7 @@ html {
   text-align: right;
 }
 .secondaryScoreScoreLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxUpperText();
   /* SecondaryNumber */
   position: absolute;
@@ -343,7 +240,7 @@ html {
 
 /* Bonux Score Box */
 .bonusScoreBox {
-  @include scorePointBoxesColor();
+  @include tertiaryColor();
   @include scoreBoxBorder();
   /* bonusScoreBox */
   position: absolute;
@@ -353,7 +250,7 @@ html {
   bottom: -1.52%;
 }
 .bonusHeaderLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   /* bonusScoreLabel */
   position: absolute;
@@ -363,7 +260,7 @@ html {
   top: -2px;
 }
 .bonusScoreLabel {
-  @include playerBoxTextColor();
+  @include lightTextColor();
   @include playerBoxUpperText();
   /* bonusScoreLabel */
   position: absolute;
@@ -377,8 +274,8 @@ html {
 .scoresHeaderRow {
   /* ScoresHeaderRow */
   position: absolute;
-  left: 0.16%;
-  right: -0.16%;
+  left: 0%;
+  right: 0%;
   top: 11.36%;
   bottom: 78.48%;  
 }
@@ -423,7 +320,7 @@ html {
 /* Grand Strategy Label Box */
 .strategyNameLabel {
   @include playerBoxLowerText();
-  @include grandStrategyTextColor();
+  @include lightTextColor();
   position: absolute;
   width: 483px;
   height: 63px;
@@ -431,7 +328,7 @@ html {
   top: 3px;
 }
 .strategyNameBox {
-  @include scoreGrandStrategyBoxesColor();
+  @include primaryColor();
   @include scoreBoxBorder();
   position: absolute;
   left: 0%;
@@ -440,7 +337,7 @@ html {
   bottom: 0%;
 }
 .strategyPointsLabel {
-  @include grandStrategyTextColor();
+  @include lightTextColor();
   @include playerBoxUpperText();
   position: absolute;
   width: 127px;
@@ -449,7 +346,7 @@ html {
   top: -1px;
 }
 .strategyPointsBox {
-  @include scoreGrandStrategyBoxesColor();
+  @include primaryColor();
   @include scoreBoxBorder();
   position: absolute;
   left: 79.81%;
@@ -460,7 +357,7 @@ html {
 
 /* Grand Strategy Score Box */
 .grandStrategyText {
-  @include grandStrategyTextColor();
+  @include lightTextColor();
   @include playerBoxLowerText();
   position: absolute;
   left: 0%;
@@ -482,32 +379,32 @@ html {
 
 @mixin scoreTotalBoxesStyle {
   /* ScoreTotalBoxes */
-  @include scoreTotalBoxesColor();
+  @include secondaryColor();
   /* ScoreBox */
   @include scoreBoxBorder();
 }
 .armyTotalBox {
   position: absolute;
-  left: 79.81%;
-  right: 0%;
-  top: 90%;
-  bottom: 0%;
+  left: 79.97%;
+  right: -0.16%;
+  top: 88.79%;
+  bottom: 1.21%;
 }
 .armyTotalNumber {
   /* TotalNumber */
   position: absolute;
-  width: 126px;
-  height: 67px;
-  left: 0px;
-  top: -1px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
   @include playerBoxUpperText();
-  color: #000;
+  @include lightTextColor();
 }
 .armyTotalBackground {
   @include scoreTotalBoxesStyle();
   position: absolute;
-  width: 126px;
-  height: 67px;
-  left: 0px;
-  top: -1px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 }
