@@ -17,6 +17,8 @@ export function populateAoSScoreData(data) {
     let playerNames = [ 'left', 'right' ];
     let topLevelNames = [
         'armyName',
+        'playerName',
+        'commandPoints',
         'grandStrategyName',
         'grandStrategyScore'
     ];
