@@ -89,17 +89,86 @@
     "sigmarBattleTraits": [
         {
             "armyType": "None",
+            "description": "When you reveal this battle tactic, pick 1 objective marker on the battlefield that your opponent controls. You complete this battle tactic if you control that objective marker at the end of this turn.",
             "name": "Conquer",
             "pointValue": 0
         },
         {
             "armyType": "None",
+            "description": "You complete this battle tactic if the model chosen to be your opponent's general is slain during this turn. If that model was destroyed by an attack made by a friendly MONSTER or an ability of a friendly MONSTER, score 1 additional victory point.",
             "name": "Slay the Warlord",
             "pointValue": 0
         },
         {
             "armyType": "None",
+            "description": "When you reveal this battle tactic, pick 1 Battleline unit from your opponent's starting army on the battlefield. You complete this battle tactic if that unit is destoryed during this turn. If that unit was destroyed by an attack made by a friendly MONSTER or an ability of a friendly MONSTER, score 1 additional victory point.",
             "name": "Broken Ranks",
+            "pointValue": 0
+        },
+        {
+            "description": "A battle tactic has not been selected yet.",
+            "name": "------",
+            "pointValue": 0
+        },
+        {
+            "description": "When you reveal this battle tactic, pick 3 differt units from your starting army on the battlefield. You complete this battle tactic if all of the units you picked run in the following movement phase and finish that run within 3\" of each other. If all 3 of those units are MONSTERS, score 1 additional victory point.",
+            "name": "Ferocious Advance",
+            "pointValue": 0
+        },
+        {
+            "description": "When you reveal this battle tactic, pick 1 enemy MONSTER on the battlefield. You complete this battle tactic if that unit is destroyed during this turn. If that enemy MONSTER was destroyed by an attack made by a friendly MONSTER or an ability of a friendly MONSTER, score 1 additional victory point.",
+            "name": "Bring It Down!",
+            "pointValue": 0
+        },
+        {
+            "description": "When you reveal this battle tactic, pick 2 objective markers on the battlefield that are not wholly within your territory. You complete this battle tactic if you control both objective markers at the end of the turn.",
+            "name": "Aggressive Expansion",
+            "pointValue": 0
+        },
+        {
+            "description": "When you reveal this battle tactic, pick 1 MONSTER from your starting army on the battlefield. You complete this battle tactic if that MONSTER is contesting an objective marker that you control at the end of this turn, and that objective marker is not contested by an enemy MONSTER.",
+            "name": "Monstrous Takeover",
+            "pointValue": 0
+        },
+        {
+            "description": "You complete this battle tactic if there are 2 or more units from your starting army wholly within your opponent's territory at the end of this turn. If 2 or more of those units are MONSTERS, score 1 additional victory point.",
+            "name": "Savage Spearhead",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You complete this tactic if at least 7 enemy models are slain by disease rolls this turn.",
+            "name": "Feed the Maggots",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "Pick 1 Feculent Gnarlmaw in your army that is within 12\" of any enemy units. You complete this tactic if that Feculant Gnarlmaw is more than 12\" from all enemy units at the end of this turn.",
+            "name": "Nurture the Gnarlmaw",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You complete this tactic if all friendly units that were on the battlefield at the start of this turn inflict at least 1 disease point on at least 1 enemy unit during this turn.",
+            "name": "Gifts of Nurgle",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You complete this tactic at the end of this turn if more enemy units than friendly units are destroyed during this turn.",
+            "name": "Glory to the Grandfather!",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You complete this tactic if there is a different friendly unit with a Rot Fly mount in each quarter of the battlefield at the end of this turn.",
+            "name": "The Droning",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You complete this tactic if you summon a GREAT UNCLEAN ONE to the battlefield during this turn and it is within 3\" of an objective that you control in your opponent's territory at the end of this turn.",
+            "name": "Sudden Domination",
             "pointValue": 0
         }
     ],
@@ -127,6 +196,33 @@
         },
         {
             "name": "Stormcast Eternals"
+        },
+        {
+            "name": "Cities of Sigmar"
+        },
+        {
+            "name": "Daughters of Khaine"
+        },
+        {
+            "name": "Fyreslayers"
+        },
+        {
+            "name": "Kharadron Overlords"
+        },
+        {
+            "name": "Lumineth Realm-lords"
+        },
+        {
+            "name": "Seraphon"
+        },
+        {
+            "name": "Sylvaneth"
+        },
+        {
+            "name": "Beasts of Chaos"
+        },
+        {
+            "name": "Disciples of Tzeentch"
         }
     ],
     "sigmarGrandStrategies": [
@@ -137,17 +233,69 @@
         },
         {
             "armyType": "None",
+            "description": "When the battle ends, you complete this grand strategy if the model chosen to be your opponent's general has been slain and the model chosen to be your general has not been slain.",
             "name": "Vendetta",
             "pointValue": 0
         },
         {
             "armyType": "None",
+            "description": "When the battle ends, you complete this grand strategy if there are any Battleline units from your starting army on the battlefield.",
             "name": "Hold the Line",
             "pointValue": 0
         },
         {
             "armyType": "None",
+            "description": "When the battle ends, you complete this grand strategy if there are no HEROES from your opponent's starting army on the battlefield.",
             "name": "Sever the Head",
+            "pointValue": 0
+        },
+        {
+            "description": "When the battle ends, you compolete this grand strategy if there are more units from your starting army on the battlefield than there are units from your opponent's starting army on the battlefield.",
+            "name": "Dominating Presence",
+            "pointValue": 0
+        },
+        {
+            "description": "When the battle ends, you complete this grand strategy if there are any MONSTERS from your starting army on the battlefield.",
+            "name": "Beast Master",
+            "pointValue": 0
+        },
+        {
+            "description": "When the battle ends, you complete this grand strategy if there are any WIZARDS from your starting army on the battlefield.",
+            "name": "Prized Sorcery",
+            "pointValue": 0
+        },
+        {
+            "description": "When the battle ends, you complete this grand strategy if there are any PRIESTS from your starting army on the battlefield.",
+            "name": "Pillars of Belief",
+            "pointValue": 0
+        },
+        {
+            "description": "When the battle ends, you complete this grand strategy if you control more terrain features than your opponent.",
+            "name": "Predator's Domain",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "When the battle ends, you complete this grand strategy if a friendly MAGGOTKIN OF NURGLE WIZARD is within 3\" of the centre of the battlefield and no enemy units are within 6\" of the centre of the battlefield.",
+            "name": "Corrupt Arcane Nexus",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "When the battle ends, you complete this grand strategy if there are no enemy units within 3\" of any Feculant Gnarlmaws in your army and there is a Feculant Gnarlmaw in your army wholly within you opponent's territory.",
+            "name": "Tend the Garden",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "When the battle ends, you complete this grand strategy if every enemy unit on the battlefield has at least 1 disease point.",
+            "name": "Spread Rampant Disease",
+            "pointValue": 0
+        },
+        {
+            "armyType": "Maggotkin of Nurgle",
+            "description": "You can pick this grand strategy only if the model picked to be your general has the MORTAL keyword. If you do so, after deployment, pick 1 terrain feature that is wholly within enemy territory, you can pick any terrain feature. When the battle ends, you complete this grand strategy if you control that terrain feature.",
+            "name": "Blessed Desecration",
             "pointValue": 0
         }
     ]
