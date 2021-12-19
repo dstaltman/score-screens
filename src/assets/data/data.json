@@ -1,11 +1,10 @@
 {
-    "description": "",
     "left": {
         "aosRoundScores": [
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
-                "secondaryName": "------",
+                "secondaryName": "Conquer",
                 "secondaryScore": 0
             },
             {
@@ -41,18 +40,18 @@
         "armyName": "Blades of Khorne",
         "commandPoints": 0,
         "grandStrategy": "Battleline Remains",
+        "grandStrategyName": "Hold the Line",
         "grandStrategyScore": 0,
         "playerName": "Miles",
         "totalPoints": 0
     },
-    "name": "------",
     "pointValue": 0,
     "right": {
         "aosRoundScores": [
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
-                "secondaryName": "------",
+                "secondaryName": "Slay the Warlord",
                 "secondaryScore": 0
             },
             {
@@ -82,97 +81,74 @@
         ],
         "armyName": "Stormcast Eternals",
         "commandPoints": 0,
+        "grandStrategyName": "Sever the Head",
         "grandStrategyScore": 0,
         "playerName": "Matt",
         "totalPoints": 0
     },
+    "sigmarBattleTraits": [
+        {
+            "armyType": "None",
+            "name": "Conquer",
+            "pointValue": 0
+        },
+        {
+            "armyType": "None",
+            "name": "Slay the Warlord",
+            "pointValue": 0
+        },
+        {
+            "armyType": "None",
+            "name": "Broken Ranks",
+            "pointValue": 0
+        }
+    ],
     "sigmarFactions": [
         {
-            "name": "Idoneth Deepkin",
-            "pointValue": 0
+            "name": "None"
         },
         {
-            "name": "Maggotkin of Nurgle",
-            "pointValue": 0
+            "name": "Idoneth Deepkin"
         },
         {
-            "name": "Slaves to Darkness",
-            "pointValue": 0
+            "name": "Maggotkin of Nurgle"
         },
         {
-            "name": "Lumineth Realmlords",
-            "pointValue": 0
+            "name": "Slaves to Darkness"
         },
         {
-            "name": "Ossiarch Bonereapers",
-            "pointValue": 0
+            "name": "Lumineth Realmlords"
         },
         {
-            "name": "Blades of Khorne",
-            "pointValue": 0
+            "name": "Ossiarch Bonereapers"
         },
         {
-            "name": "Stormcast Eternals",
-            "pointValue": 0
+            "name": "Blades of Khorne"
+        },
+        {
+            "name": "Stormcast Eternals"
         }
     ],
-    "sigmarObjectiveTypes": [
+    "sigmarGrandStrategies": [
         {
-            "name": "grand strategy"
+            "armyType": "None",
+            "name": "-------",
+            "pointValue": 0
         },
         {
-            "name": "battle tactic"
-        }
-    ],
-    "sigmarObjectives": [
-        {
-            "description": "",
-            "name": "------",
-            "pointValue": 0,
-            "type": "battle tactic"
-        },
-        {
-            "description": "Pick a battle line. Kill it.",
-            "name": "Broken Ranks",
-            "pointValue": 2,
-            "type": "battle tactic"
-        },
-        {
-            "description": "Take an objective from the opponent",
-            "name": "Conquer",
-            "pointValue": 2,
-            "type": "battle tactic"
-        },
-        {
-            "description": "Have at least one battleline remaining",
-            "name": "Battleline Remains",
-            "pointValue": 3,
-            "type": "grand strategy"
-        },
-        {
-            "description": "Kill all enemy Heroes",
-            "name": "Sever the Head",
-            "pointValue": 3,
-            "type": "grand strategy"
-        },
-        {
-            "description": "Kill the enemy General. Your General is still alive.",
+            "armyType": "None",
             "name": "Vendetta",
-            "pointValue": 3,
-            "type": "grand strategy"
+            "pointValue": 0
         },
         {
-            "description": "At least one battleline unit remains",
+            "armyType": "None",
             "name": "Hold the Line",
-            "pointValue": 3,
-            "type": "grand strategy"
+            "pointValue": 0
         },
         {
-            "description": "Kill the enemy General",
-            "name": "Slay the Warlord",
-            "pointValue": 2,
-            "type": "battle tactic"
+            "armyType": "None",
+            "name": "Sever the Head",
+            "pointValue": 0
         }
-    ],
-    "type": "battle tactic"
+    ]
 }
