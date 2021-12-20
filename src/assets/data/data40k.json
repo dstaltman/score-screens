@@ -1,0 +1,345 @@
+{
+    "40kFactions": [
+        {
+            "name": "Space Marines"
+        },
+        {
+            "name": "Black Templars"
+        },
+        {
+            "name": "Blood Angels"
+        },
+        {
+            "name": "Dark Angels"
+        },
+        {
+            "name": "Deathwatch"
+        },
+        {
+            "name": "Grey Knights"
+        },
+        {
+            "name": "Imperial Fists"
+        },
+        {
+            "name": "Iron Hands"
+        },
+        {
+            "name": "Raven Guard"
+        },
+        {
+            "name": "Salamanders"
+        },
+        {
+            "name": "Space Wolves"
+        },
+        {
+            "name": "Ultramarines"
+        },
+        {
+            "name": "White Scars"
+        },
+        {
+            "name": "Adepta Sororitas"
+        },
+        {
+            "name": "Adeptus Custodes"
+        },
+        {
+            "name": "Adeptus Mechanicus"
+        },
+        {
+            "name": "Astra Militarum"
+        },
+        {
+            "name": "Imperial Knights"
+        },
+        {
+            "name": "Chaos Daemons"
+        },
+        {
+            "name": "Chaos Knights"
+        },
+        {
+            "name": "Chaos Space Marines"
+        },
+        {
+            "name": "Death Guard"
+        },
+        {
+            "name": "Thousand Suns"
+        },
+        {
+            "name": "Craftworlds"
+        },
+        {
+            "name": "Drukhari"
+        },
+        {
+            "name": "Genestealer Cults"
+        },
+        {
+            "name": "Harlequins"
+        },
+        {
+            "name": "Necrons"
+        },
+        {
+            "name": "Orks"
+        },
+        {
+            "name": "T'au Empire"
+        },
+        {
+            "name": "Tyranids"
+        },
+        {
+            "name": "Ynnari"
+        },
+        {
+            "name": "None"
+        }
+    ],
+    "40kPrimaryObjectives": [
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Retrieval Mission"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Scorched Earth"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control two or more objective markers\nThey control three or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored during the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Vital Intelligence"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Surround and Destroy"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Battle Lines"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control two or more objective markers\nThey control three or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored during the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "The Scouring"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control two or more objective markers\nThey control three or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored during the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Overrun"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Take and Hold"
+        },
+        {
+            "description": "At the end of each player\u2019s Command phase, the player whose turn it is scores 5 victory points for each of the following conditions they satisfy (for a maximum of 15 victory points):\nThey control one or more objective markers.\nThey control two or more objective markers.\nThey control more objective markers than their opponent controls.\nThis primary objective cannot be scored in the first battle round. In the fifth battle round, the player who has the second turn does not score any victory points at the end of their Command phase; instead, at the end of their turn, they score 5 victory points for each of the above conditions they satisfy (for a maximum of 15 victory points).",
+            "name": "Priority Target"
+        }
+    ],
+    "40kSecondaryObjectives": [
+        {
+            "description": "Score 3 victory points at the end of the battle for each enemy CHARACTER model that is destroyed. If the enemy WARLORD was destroyed during the battle, gain 1 additional victory point.",
+            "name": "Assassination"
+        },
+        {
+            "description": "Score 1 victory point at the end of the battle for each enemy MONSTER or VEHICLE model with a Wounds characteristic of 10 or less that is destroyed, 2 victory points for each enemy MONSTER or VEHICLE model with a Wounds characteristic of between 11-19 that is destroyed, and 3 victory points for each enemy MONSTER or VEHICLE model with a Wounds characteristic of 20 or more that is destroyed.",
+            "name": "Bring It Down"
+        },
+        {
+            "description": "Score 4 victory points at the end of the battle if one enemy TITANIC model is destroyed, 9 victory points if two enemy TITANIC models are destroyed, or 15 victory points if three or more enemy TITANIC models are destroyed.",
+            "name": "Titan Hunter"
+        },
+        {
+            "description": "Score 2 victory points at the end of your turn if you have one or more units from your army wholly within three different table quarters, and those units are all more than 6\" from the centre of the battlefield. Score 3 victory points instead if you have one or more units from your army wholly within each table quarter, and those units are all more than 6\" from the centre of the battlefield.",
+            "name": "Engage On All Fronts"
+        },
+        {
+            "description": "Score 2 victory points at the end of your turn if one unit from your army (excluding AIRCRAFT units) is wholly within your opponent\u2019s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding AIRCRAFT units) are wholly within your opponent\u2019s deployment zone.",
+            "name": "Behind Enemy Lines"
+        },
+        {
+            "description": "Score 3 victory points at the end of your turn if you control 3 or more objective markers and you also control more objective marker than your opponent controls.",
+            "name": "Stranglehold"
+        },
+        {
+            "description": "If you select this objective, keep a tally of kill points. Each time an enemy model is destroyed, unless that model is a VEHICLE, MONSTER or CHARACTER, add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially have marks added to this tally several times (assuming it is resurrected and subsequently destroyed several times over). At the end of the battle, divide your kill points tally by 10 and round down - the result is the number of victory points you score.",
+            "name": "No Prisoners"
+        },
+        {
+            "description": "Score 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round.",
+            "name": "Grind Them Down"
+        },
+        {
+            "description": "If you select this objective, then before the battle, after you have selected deployment zones, identify which three units from your army (excluding those with the Fortifications Battlefield Role) have the highest points value, and make a note of them on your army roster (if two or more are tied, you choose between them). If your army has three or fewer units, you instead identify all the units in your army. A unit\u2019s points value includes the points of all weapons, other wargear and upgrades it has. You score 5 victory points for each of these units that are on the battlefield at the end of the battle. If a unit splits into several smaller units during a battle, all of those separate units (excluding DRONE units) must be on the battlefield at the end of the battle to score 5 victory points; if some of those separate units (excluding DRONE units) are on the battlefield at the end of the battle, but not all of them are, you score 3 victory points instead of 5.",
+            "name": "To the Last"
+        },
+        {
+            "description": "If you select this objective, then units in your army can perform the following action:\n\nRaise Banners (Action): One or more INFANTRY units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be in range of a different objective marker that does not have one of your banners raised upon it (see below). A unit cannot start this action while there are any enemy units (excluding AIRCRAFT) in range of the same objective marker. The action is completed at the end of your turn. If this action is successfully completed, that objective marker is said to have one of your army\u2019s banners raised on it (the banner is \u2018removed\u2019 if your opponent controls the objective marker at the start of any phase).\n\nScore 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it.",
+            "name": "Raise the Banners High"
+        },
+        {
+            "description": "Score 3 victory points each time a unit from your army successfully completes the following action:\n\nInvestigate Signal (Action): One INFANTRY unit (excluding CHARACTER units) from your army can start to perform this action at the end of your Movement phase if it is wholly within 6\" of the centre of the battlefield and no enemy units (excluding AIRCRAFT units) are wholly within 6\" of the centre of the battlefield. This action is completed at the end of your turn provided the unit attempting it is still wholly within 6\" of the centre of the battlefield and no enemy units (excluding AIRCRAFT units) are wholly within 6\" of the centre of the battlefield.",
+            "name": "Investigate Signal"
+        },
+        {
+            "description": "If you select this objective, keep a tally of Retrieved Data points; add 1 to that tally each time a unit from your army successfully completes the following action during the battle:\n\nRetrieve Data (Action): One INFANTRY unit (excluding CHARACTER units) from your army can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more then 6\" away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, the table quarter is said to have had a servo-skull retrieved by your army.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
+            "name": "Retrieve Octarius Data"
+        },
+        {
+            "description": "If you select this objective, then units from your army can perform the following action:\n\nDeploy Teleport Homer (Action): One INFANTRY or BIKER unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 12\" of your opponent\u2019s deployment zone. The action is completed at the end of your next Command phase provided the unit attempting it is still wholly within 12\" of your opponent\u2019s deployment zone.\n\nEach time a unit from your army successfully completes this action, you score 2 victory points (you score 4 victory points instead if the unit completed the action while wholly within your opponent\u2019s deployment zone).",
+            "name": "Deploy Teleport Homers"
+        },
+        {
+            "description": "You cannot select this secondary objective if your army includes any PSYKER units. Score 3 victory points at the end of the battle for each enemy PSYKER CHARACTER unit that is destroyed, and 2 victory points for every other enemy PSYKER unit that is destroyed.",
+            "name": "Abhor the Witch"
+        },
+        {
+            "description": "If you select this objective, keep a tally of Ritual points; add 1 to that tally each time a unit from your army successfully completes the following psychic action during the battle:\n\nWarp Ritual (Psychic Action - Warp Charge 3): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6\" of the centre of the battlefield.\n\nAt the end of the battle, score 3 victory points if your Ritual tally is 1, score 7 victory points if your tally is 2, or score 12 victory points if your tally is 3 or more.",
+            "name": "Warp Ritual"
+        },
+        {
+            "description": "Score 8 victory points at the end of the battle if one or more units from your army successfully completed the following psychic action 2 or more times during the battle, or 15 victory points at the end of the battle if one or more units from your army successfully completed the following psychic action 4 times during the battle (note that you can only score this objective once):\n\nPierce the Veil (Psychic Action - Warp Charge 4): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action during your Psychic phase if it is within 6\" of your opponent\u2019s battlefield edge and more than 6\" from any enemy models.",
+            "name": "Pierce the Veil"
+        },
+        {
+            "description": "Score 3 victory points each time you successfully complete the following psychic action:\n\nPsychic Interrogation (Psychic Action - Warp Charge 4): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24\" of any visible enemy CHARACTER models.",
+            "name": "Psychic Interrogation"
+        },
+        {
+            "description": "At the start of the battle, add up the number of units in your army - this is your army\u2019s Strength. If a unit splits to form two or more individual units during the battle, then immediately increase your army\u2019s Strength accortlingly (e.g. if one unit in your army splits to form three individual units, your army\u2019s Strength is increased by 2). If a unit merges with another to form a combined unit during the battle, then decrease your army\u2019s Strength accordingly (e.g. if two units from your army merge to form one unit, you immediately decrease your army\u2019s Strength by 1).\n\nAt the end of the battle, add up how many units from your army are left on the battlefield, including all units embarked within TRANSPORTS, but excluding all units that have been added to your army during the battle. If the total is 75% or more of your army\u2019s Strength, score 15 victory points; if the total is less than 75%, but is 50% or more of your army\u2019s Strength, score 10 victory points; if the total is less than 50%, but is 25% or more of your army\u2019s Strength, score 5 victory points.",
+            "name": "Minimise Losses"
+        },
+        {
+            "description": "At the end of the battle, a player scores 6 victory points if one objective marker was removed from the battlefield due to a successful Raze Objective action performed by a unit from their army during the battle, and 12 victory point if two objective markers were so removed.",
+            "name": "Raze"
+        },
+        {
+            "description": "Each time a unit from your army successfully completes the following action, you score a number of victory points equal to the number of objective markers you currently control:\n\nData Intercept (Action): One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker and no enemy units (excluding AIRCRAFT) are within range of that objective marker. This action is completed at the end of your next Command phase, so long as the unit performing it is still within range of the same objective marker.",
+            "name": "Data Intercept"
+        },
+        {
+            "description": "Score 4 victory points at the end of your Command phase, and at the end of the battle if you control both the objective markers in your deployment zone and one or more objective markers in your opponent\u2019s deployment zone. Score 8 victory points instead if you control all four objective markers that are in deployment zones.",
+            "name": "Surround Them"
+        },
+        {
+            "description": "At the end of each of your Command phases, you score 3 victory points if you control the objective marker in your opponent\u2019s deployment zone, and score 2 victory points for each objective marker that you control that is not in either player\u2019s deployment zone (for a maximum of 7 victory points). This secondary objective cannot be scored in the first battle round.",
+            "name": "Vital Ground"
+        },
+        {
+            "description": "If you select this objective, then units in your army can perform the following action:\n\nStrategic Scan (Action): One or more units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be in range of a different objective marker that has not already been scanned by a unit from your army (see below). A unit cannot start this action while there are any enemy units (excluding AIRCRAFT) in range of the same objective marker. This action is completed at the start of your next Command phase, or at the end of the battle (whichever happens first). If this action is successfully completed, that objective marker is said to have been scanned by your army. You score a number of victory points at the end of the battle depending on how many times units from your army completed this action this battle, as shown in the table below:\n\nSTRATEGIC SCAN ACTIONS\tVICTORY POINTS\n1\t3\n2\t6\n3\t10\n4+\t15",
+            "name": "Strategic Scan"
+        },
+        {
+            "description": "Score a number of victory points at the end of your Command phase if you control one or more of the objective markers that are within your opponent\u2019s territory, as shown in the table below:\n\nNUMBER OF OBJECTIVE MARKERS IN OPPONENT\u2019S TERRITORY YOU CONTROL\tVICTORY POINTS\n1\t2\n2\t3\n3\t5",
+            "name": "Overrun"
+        },
+        {
+            "description": "Score 3 victory points if you control either the objective marker in the centre of the battlefield or the objective marker in your opponent\u2019s deployment zone at the end of your turn, or 5 victory points if you control both of these objective markers at the end of your turn.",
+            "name": "Direct Assault"
+        },
+        {
+            "description": "Score 3 victory points if you control either of the Priority Objective Markers (see above) at the end of your turn, or 5 victory points if you control both of these objective markers at the end of your turn.",
+            "name": "Priority Targets"
+        }
+    ],
+    "dataType": "40k",
+    "left": {
+        "40kRoundScores": [
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            }
+        ],
+        "40kRoundScores[{roundIndex}]": {
+            "secondaryName0": "Assassination",
+            "secondaryName1": "Engage On All Fronts",
+            "secondaryName2": "Behind Enemy Lines"
+        },
+        "aosRoundScores": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "armyName": "Necrons",
+        "commandPoints": 0,
+        "playerName": "Dru",
+        "totalPoints": 0
+    },
+    "right": {
+        "40kRoundScores": [
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            },
+            {
+                "primaryScore": 0,
+                "secondaryScore0": 0,
+                "secondaryScore1": 0,
+                "secondaryScore2": 0
+            }
+        ],
+        "aosRoundScores": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "armyName": "Orks",
+        "commandPoints": 0,
+        "playerName": "Don",
+        "totalPoints": 0
+    },
+    "roundNum": 1,
+    "roundOrder": "TOP"
+}
