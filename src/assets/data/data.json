@@ -223,6 +223,33 @@
         },
         {
             "name": "Disciples of Tzeentch"
+        },
+        {
+            "name": "Hedonites of Slaanesh"
+        },
+        {
+            "name": "Skaven"
+        },
+        {
+            "name": "Flesh-eater Courts"
+        },
+        {
+            "name": "Nighthaunt"
+        },
+        {
+            "name": "Soulblight Gravelords"
+        },
+        {
+            "name": "Gloomspite Gitz"
+        },
+        {
+            "name": "Ogor Mawtribes"
+        },
+        {
+            "name": "Orruk Warclans"
+        },
+        {
+            "name": "Sons of Behemat"
         }
     ],
     "sigmarGrandStrategies": [
