@@ -14,10 +14,26 @@ function capitalize(s) {
 // figure it all out from some lookup. Mostly it will be field name
 // applies to 'id' in some format based on lef/right player
 export function populateAoSScoreData(data) {
+    // Update round number and round order
+    let roundNames = [ 'roundNum', 'roundOrder' ];
+    roundNames.forEach(roundString => {
+        var id = "#" + roundString;
+        console.log(roundString);
+        console.log(data);
+        if (typeof(data[roundString]) === 'string') {
+            $(id).html(data[roundString]);
+        }
+        else {
+            $(id).html(data[roundString]);
+        }
+    });
+
+    // Data needed for updating left and right players
     let playerNames = [ 'left', 'right' ];
     let topLevelNames = [
         'armyName',
         'playerName',
+        'playerStatus',
         'commandPoints',
         'grandStrategyName',
         'grandStrategyScore'
