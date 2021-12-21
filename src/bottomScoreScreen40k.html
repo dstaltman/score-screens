@@ -1,0 +1,47 @@
+<html lang="en">
+  <!-- html Head -->
+  <partial src="header.html"></partial>
+  <!-- End of html Head -->
+
+  <body>
+
+    <!-- PLAYER BOXES -->
+
+    <!-- Left Player Box -->
+    <div class='bottomPlayerBoxLeft'>
+      <div class='bottomCpCountLabel' id='leftCommandPoints'>88</div>
+      <div class='bottomCpLabel'>CP:</div>
+      <div class='bottomActiveLabel'>ACTIVE</div>
+      <div class='bottomPlayerNameLabel' id='leftPlayerName'>Miles "The Machine" Benjamin</div>
+      <div class='bottomPlayerScoreLabel' id='leftTotalScore'>100</div>
+      <div class='bottomPlayerArmyNameLabel' id='leftArmyName'>MAGGOTKIN OF NURGLE</div>
+    </div>
+
+    <!-- Right Player Box -->
+    <div class='bottomPlayerBoxRight'>
+      <div class='bottomCpCountLabel' id='rightCommandPoints'>88</div>
+      <div class='bottomCpLabel'>CP:</div>
+      <div class='bottomActiveLabel'>ACTIVE</div>
+      <div class='bottomPlayerNameLabel' id='rightPlayerName'>Miles "The Machine" Benjamin</div>
+      <div class='bottomPlayerScoreLabel' id='rightTotalScore'>100</div>
+      <div class='bottomPlayerArmyNameLabel' id='rightArmyName'>MAGGOTKIN OF NURGLE</div>
+    </div>
+    
+    <!-- ROUND BOX -->
+    <div class='bottomRoundBox'>
+      <div class='bottomRoundNumberLabel' id='roundNumber'>1</div>
+      <div class='bottomRoundOfLabel'>OF</div>
+      <div class='bottomRoundTopBotLabel' id='roundTopBottom'>TOP</div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script type="module" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./assets/js/populate40kScoreData.js"></script>
+    <script src="./assets/js/svg4everybody.min.js"></script>
+    <script src="./assets/js/svg4everybody.legacy.min.js"></script>
+    <script>
+      svg4everybody();
+    </script>
+  </body>
+</html>
