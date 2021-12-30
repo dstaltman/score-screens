@@ -5,7 +5,7 @@
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
-                "secondaryName": "Conquer",
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
@@ -38,12 +38,13 @@
             "primaryScore": 0,
             "secondaryScore": 0
         },
-        "armyName": "Blades of Khorne",
+        "armyName": "Maggotkin of Nurgle",
         "commandPoints": 0,
         "grandStrategy": "Battleline Remains",
         "grandStrategyName": "Hold the Line",
         "grandStrategyScore": 0,
-        "playerName": "Miles",
+        "playerName": "Miles Benjamin",
+        "playerStatus": "",
         "totalPoints": 0
     },
     "pointValue": 0,
@@ -52,7 +53,7 @@
             {
                 "bonusScore": 0,
                 "primaryScore": 0,
-                "secondaryName": "Slay the Warlord",
+                "secondaryName": "------",
                 "secondaryScore": 0
             },
             {
@@ -80,13 +81,16 @@
                 "secondaryScore": 0
             }
         ],
-        "armyName": "Stormcast Eternals",
+        "armyName": "Ogor Mawtribes",
         "commandPoints": 0,
         "grandStrategyName": "Sever the Head",
         "grandStrategyScore": 0,
-        "playerName": "Matt",
+        "playerName": "Don Maddock",
+        "playerStatus": "",
         "totalPoints": 0
     },
+    "roundNum": 1,
+    "roundOrder": "TOP",
     "sigmarBattleTraits": [
         {
             "armyType": "None",
@@ -107,31 +111,37 @@
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "A battle tactic has not been selected yet.",
             "name": "------",
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "When you reveal this battle tactic, pick 3 differt units from your starting army on the battlefield. You complete this battle tactic if all of the units you picked run in the following movement phase and finish that run within 3\" of each other. If all 3 of those units are MONSTERS, score 1 additional victory point.",
             "name": "Ferocious Advance",
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "When you reveal this battle tactic, pick 1 enemy MONSTER on the battlefield. You complete this battle tactic if that unit is destroyed during this turn. If that enemy MONSTER was destroyed by an attack made by a friendly MONSTER or an ability of a friendly MONSTER, score 1 additional victory point.",
             "name": "Bring It Down!",
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "When you reveal this battle tactic, pick 2 objective markers on the battlefield that are not wholly within your territory. You complete this battle tactic if you control both objective markers at the end of the turn.",
             "name": "Aggressive Expansion",
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "When you reveal this battle tactic, pick 1 MONSTER from your starting army on the battlefield. You complete this battle tactic if that MONSTER is contesting an objective marker that you control at the end of this turn, and that objective marker is not contested by an enemy MONSTER.",
             "name": "Monstrous Takeover",
             "pointValue": 0
         },
         {
+            "armyType": "None",
             "description": "You complete this battle tactic if there are 2 or more units from your starting army wholly within your opponent's territory at the end of this turn. If 2 or more of those units are MONSTERS, score 1 additional victory point.",
             "name": "Savage Spearhead",
             "pointValue": 0
