@@ -83,10 +83,8 @@ export function populate40kScoreData(data) {
     });
 }
 
-populate40kScoreData(testdata);
-
 function updateFile() {
-    fetch('assets/data/data.json')
+    fetch('assets/data/data40k.json')
     .then(response => response.json())
     //.then(data => console.log(data))
     .then(data => populate40kScoreData(data));

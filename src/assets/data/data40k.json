@@ -248,7 +248,7 @@
     "left": {
         "40kRoundScores": [
             {
-                "primaryScore": 0,
+                "primaryScore": 5,
                 "secondaryScore0": 0,
                 "secondaryScore1": 0,
                 "secondaryScore2": 0
@@ -280,7 +280,7 @@
         ],
         "40kRoundScores[{roundIndex}]": {
             "secondaryName0": "Assassination",
-            "secondaryName1": "Engage On All Fronts",
+            "secondaryName1": "Assassination",
             "secondaryName2": "Behind Enemy Lines"
         },
         "aosRoundScores": [
@@ -290,9 +290,9 @@
             {},
             {}
         ],
-        "armyName": "Necrons",
+        "armyName": "Space Marines",
         "commandPoints": 0,
-        "playerName": "Dru",
+        "playerName": "Miles",
         "totalPoints": 0
     },
     "right": {
