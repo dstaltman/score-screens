@@ -1,0 +1,149 @@
+
+/* ROUND NUMBER BOX */
+.topDownRoundBox {
+  /* topDownRoundBox */
+  position: absolute;
+  width: 400px;
+  height: 128px;
+  left: 1520px;
+  top: 476px;
+}
+.topDownRoundNumberLabel {
+  /* topDownRoundNumberLabel */
+  position: absolute;
+  left: 59.25%;
+  right: 3.5%;
+  top: 10.16%;
+  bottom: 18.75%;
+
+  @include roundNumberText();
+  @include lightTextColor();
+}
+.topDownRoundOfLabel {
+  /* topDownRoundOfLabel */
+  position: absolute;
+  left: 46.75%;
+  right: 33.75%;
+  top: 27.34%;
+  bottom: 27.34%;
+
+  @include roundNumberAccentText();
+  @include lightTextColor();
+}
+.topDownRoundTopBotLabel {
+  /* topDownRoundTopBotLabel */
+  position: absolute;
+  left: 4.5%;
+  right: 55.75%;
+  top: 10.16%;
+  bottom: 18.75%;
+
+  /* roundNumberText */
+  @include roundNumberText();
+  @include lightTextColor();
+}
+.topDownRoundBoxBackground {
+  /* topDownRoundBoxBackground */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  @include primaryColor();
+  /* secondaryColor */
+  border: 2px solid #0E131F;
+  box-sizing: border-box;
+}
+
+/* PLAYER SCORE BOXES */
+@mixin topDownPlayerBox {
+  position: absolute;
+  width: 400px;
+  height: 155px;
+}
+.topDownPlayerBoxLeft {
+  @include topDownPlayerBox();
+  left: 1520px;
+  top: 299px;
+}
+.topDownPlayerBoxRight {
+  @include topDownPlayerBox();
+  left: 1520px;
+  top: 626px;
+}
+.topDownCPCount {
+  position: absolute;
+  left: 60.5%;
+  right: 32%;
+  top: 51.61%;
+  bottom: 27.74%;
+  @include playerBoxLowerText();
+  @include lightTextColor();
+}
+.topDownActiveLabel {
+  position: absolute;
+  left: 50%;
+  right: 32.68%;
+  top: 70.97%;
+  bottom: 8.39%;
+  @include playerBoxLowerText();
+  @include accentTextColor();
+}
+.topDownCPLabel {
+  position: absolute;
+  left: 50%;
+  right: 39.5%;
+  top: 51.61%;
+  bottom: 27.74%;
+  @include playerBoxLowerText();
+  @include lightTextColor();
+}
+.topDownPlayerName {
+  position: absolute;
+  left: 1.25%;
+  right: 1.25%;
+  top: 25.81%;
+  bottom: 54.84%;
+  @include playerBoxLowerText();
+  @include lightTextColor();
+}
+.topDownTotalScore {
+  position: absolute;
+  left: 1.25%;
+  right: 48.75%;
+  top: 45.16%;
+  bottom: 3.23%;
+  @include topTotalScoreText();
+  @include lightTextColor();
+}
+.topDownArmyName {
+  position: absolute;
+  left: 1.25%;
+  right: 1.25%;
+  top: 0%;
+  bottom: 74.19%;
+  @include textStyle32();
+  @include lightTextColor();
+}
+.topDownPlayerBoxBackground {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  @include primaryColor();
+  border: 2px solid #0E131F;
+  box-sizing: border-box;
+}
+
+.topDownSideScoreBackground {
+  /* topDownSideScoreBackground */
+  position: absolute;
+  width: 400px;
+  height: 1080px;
+  left: 1520px;
+  top: 0px;
+
+  @include secondaryColor();
+}

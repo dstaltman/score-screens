@@ -290,9 +290,9 @@
             {},
             {}
         ],
-        "armyName": "Space Marines",
+        "armyName": "Orks",
         "commandPoints": 0,
-        "playerName": "Miles",
+        "playerName": "Don",
         "totalPoints": 0
     },
     "right": {
@@ -335,9 +335,9 @@
             {},
             {}
         ],
-        "armyName": "Orks",
+        "armyName": "Space Marines",
         "commandPoints": 0,
-        "playerName": "Don",
+        "playerName": "Miles",
         "totalPoints": 0
     },
     "roundNum": 1,

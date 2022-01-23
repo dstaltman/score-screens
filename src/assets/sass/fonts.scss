@@ -52,5 +52,16 @@
   font-size: 96px;
   line-height: 18px;
 }
-
+@mixin topTotalScoreText {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+}
+@mixin textStyle32 {
+  @include fontCentered();
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+}
 
