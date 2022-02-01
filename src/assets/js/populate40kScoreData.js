@@ -18,6 +18,7 @@ export function populate40kScoreData(data) {
     let topLevelNames = [
         'armyName',
         'playerName',
+        'playerStatus',
         'commandPoints',
         'secondaryName0',
         'secondaryName1',

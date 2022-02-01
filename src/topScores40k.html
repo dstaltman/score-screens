@@ -1,0 +1,51 @@
+<html lang="en">
+  <!-- html Head -->
+  <partial src="header.html"></partial>
+  <!-- End of html Head -->
+
+  <body>
+
+    <!-- SIDE BAR -->
+    <div class='topDownSideScoreBackground'></div>
+
+    <!-- ROUND NUMBER BOX -->
+    <div class='topDownRoundBox'>
+      <div class='topDownRoundBoxBackground'></div>
+      <div class='topDownRoundOfLabel'>OF</div>
+      <div class='topDownRoundNumberLabel' id='roundNum'>1</div>
+      <div class='topDownRoundTopBotLabel' id='roundTopBottom'>TOP</div>
+    </div>
+
+    <!-- LEFT PLAYER BOX -->
+    <div class='topDownPlayerBoxLeft'>
+      <div class='topDownPlayerBoxBackground'></div>
+      <div class='topDownCPCount' id='leftCommandPoints'>9</div>
+      <div class='topDownActiveLabel' id='leftPlayerStatus'>ACTIVE</div>
+      <div class='topDownCPLabel'>CP:</div>
+      <div class='topDownPlayerName' id='leftPlayerName'>DON</div>
+      <div class='topDownTotalScore' id='leftTotalScore'>99</div>
+      <div class='topDownArmyName' id='leftArmyName'>OGOR MAWTRIBES</div>
+    </div>
+
+    <!-- RIGHT PLAYER BOX -->
+    <div class='topDownPlayerBoxRight'>
+      <div class='topDownPlayerBoxBackground'></div>
+      <div class='topDownCPCount' id='rightCommandPoints'>9</div>
+      <div class='topDownActiveLabel' id='rightPlayerStatus'>ACTIVE</div>
+      <div class='topDownCPLabel'>CP:</div>
+      <div class='topDownPlayerName' id='rightPlayerName'>DON</div>
+      <div class='topDownTotalScore' id='rightTotalScore'>99</div>
+      <div class='topDownArmyName' id='rightArmyName'>OGOR MAWTRIBES</div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script type="module" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./assets/js/populate40kScoreData.js"></script>
+    <script src="./assets/js/svg4everybody.min.js"></script>
+    <script src="./assets/js/svg4everybody.legacy.min.js"></script>
+    <script>
+      svg4everybody();
+    </script>
+  </body>
+</html>
