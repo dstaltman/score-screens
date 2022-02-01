@@ -9,14 +9,14 @@
   @include secondaryColor();
   position: absolute;
   left: 34px;
-  top: 0px;
+  top: 952px;
 }
 .bottomPlayerBoxRight {
   @include bottomPlayerBox();
   @include secondaryColor();
   position: absolute;
   left: 766px;
-  top: 0px;
+  top: 952px;
 }
 
 .bottomCpCountLabel {
@@ -81,7 +81,7 @@
   width: 400px;
   height: 128px;
   left: 1498px;
-  top: 0px;
+  top: 952px;
 }
 .bottomRoundNumberLabel {
   @include lightTextColor();
